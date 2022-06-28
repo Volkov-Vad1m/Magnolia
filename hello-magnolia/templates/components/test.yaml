@@ -1,0 +1,4 @@
+title: test
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/test.ftl
+dialog: hello-magnolia:components/test

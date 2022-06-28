@@ -1,0 +1,4 @@
+title: video
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/video.ftl
+dialog: hello-magnolia:components/video
