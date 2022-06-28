@@ -11,6 +11,8 @@ areas:
 
   main:
     availableComponents:
+      columnLayout:
+        id: hello-magnolia:components/columnLayout
       quotation:
         id: hello-magnolia:components/quotation
       textImage:

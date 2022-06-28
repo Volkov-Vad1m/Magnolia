@@ -1,0 +1,7 @@
+
+/* Make all images in columns responsive. Scale them down to fit the size of the column.*/
+div[class^='col'] img, div[class*=' col'] img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

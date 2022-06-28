@@ -1,0 +1,23 @@
+templateScript: /hello-magnolia/templates/components/columnLayout.ftl
+dialog: hello-magnolia:components/columnLayout
+
+renderType: freemarker
+areas:
+  column1: &column1
+    type: list
+    availableComponents:
+      textImage:
+        id: mtk2:components/textImage
+      linkList:
+        id: mtk2:components/linkList
+      teaser:
+        id: mtk2:components/teaser
+      video:
+        id: mtk2:components/video
+      html:
+        id: mtk2:components/html
+      form:
+        id: form:components/form
+  column2: *column1
+  column3: *column1
+  column4: *column1
