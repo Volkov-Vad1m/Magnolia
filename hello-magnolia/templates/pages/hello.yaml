@@ -8,7 +8,6 @@ areas:
     type: noComponent
     createAreaNode: false
     templateScript: /hello-magnolia/templates/areas/navigation.ftl
-
   main:
     availableComponents:
       columnLayout:
@@ -24,7 +23,10 @@ areas:
       mgnlTextImage:
         id: mtk2:components/textImage
       mgnlImage:
-        id: mtk2:components/image  
+        id: mtk2:components/image 
+      tourCarousel:
+        id: hello-magnolia:components/tourCarousel 
+      
   footer:
     availableComponents:
       text:

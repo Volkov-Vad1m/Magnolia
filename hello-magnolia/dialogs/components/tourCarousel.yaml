@@ -1,0 +1,13 @@
+form:
+  properties:
+    - name: tours
+      $type: jcrMultiValueField
+      field:
+        $type: linkField
+        editable: false
+        datasource:
+          $type: jcrDatasource
+          workspace: tours
+    - name: showTourTypes
+      $type: checkBoxField
+      defaultValue: true

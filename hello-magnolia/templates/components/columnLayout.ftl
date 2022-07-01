@@ -1,4 +1,3 @@
-
 [#-------------- ASSIGNMENTS --------------]
 [#assign layout = content.layout!"6x6"]
 [#assign layouts = layout?split("x")]
