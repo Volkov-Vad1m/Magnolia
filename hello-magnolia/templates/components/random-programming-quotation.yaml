@@ -1,0 +1,4 @@
+title: Random Programming Quotation
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/random-programming-quotation.ftl
+

@@ -27,6 +27,11 @@ areas:
       tourCarousel:
         id: hello-magnolia:components/tourCarousel 
       
+        id: hello-magnolia:components/tourCarousel
+      rest-test:
+        id: hello-magnolia:components/rest-test
+      random-programming-quotation:
+        id: hello-magnolia:components/random-programming-quotation
   footer:
     availableComponents:
       text:

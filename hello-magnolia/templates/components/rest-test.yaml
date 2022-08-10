@@ -1,0 +1,4 @@
+title: Rest Test
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/rest-test.ftl
+dialog: hello-magnolia:components/rest-test

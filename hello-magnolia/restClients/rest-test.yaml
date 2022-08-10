@@ -1,0 +1,7 @@
+baseUrl: http://localhost:9090
+restCalls:
+  greeting:
+    method: get
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /greeting/{name}
+    defaultValues: {name: "Vadim"}
