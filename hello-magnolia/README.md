@@ -7,5 +7,5 @@
 - конфигурационный файл /templates/components/rest-test.yaml
 - главный скрипт /templates/components/rest-test.ftl
 
-В файле /restClients/rest-test.yaml настраиваем REST сервис.
+В файле /restClients/rest-test.yaml настраиваем REST сервис.  
 В этом файле описывается URL для запроса и доступные методы(см. файл, там есть комментарии)
