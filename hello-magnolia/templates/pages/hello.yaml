@@ -26,8 +26,6 @@ areas:
         id: mtk2:components/image 
       tourCarousel:
         id: hello-magnolia:components/tourCarousel 
-      
-        id: hello-magnolia:components/tourCarousel
       rest-test:
         id: hello-magnolia:components/rest-test
       random-programming-quotation:

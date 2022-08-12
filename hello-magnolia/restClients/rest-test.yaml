@@ -1,7 +1,8 @@
-baseUrl: http://localhost:9090
-restCalls:
-  greeting:
-    method: get
-    entityClass: com.fasterxml.jackson.databind.JsonNode
-    path: /greeting/{name}
-    defaultValues: {name: "Vadim"}
+baseUrl: http://localhost:9090 #URL куда будут выполняться запросы
+restCalls: # доступные запросы по этому URL
+  greeting: # название запроса - именно это название будет использоваться в ftl скриптах 
+    method: get #тип метода
+    entityClass: com.fasterxml.jackson.databind.JsonNode #возвращаемый тип данных
+    path: /greeting/{name} # путь для URL запроса. К примеру "http://localhost:9090/greeting/Mark"
+    defaultValues: {name: "Vadim"} # default значение для запроса. Запрос без параметра подставить в name Vadim
+

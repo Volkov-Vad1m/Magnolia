@@ -1,4 +1,4 @@
-# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+# при добавлении компоненты появится окно с полем name
 
 label: rest-test
 form:
