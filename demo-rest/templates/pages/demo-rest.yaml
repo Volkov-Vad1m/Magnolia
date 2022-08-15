@@ -1,0 +1,10 @@
+title: demo-rest
+templateScript: /demo-rest/templates/pages/demo-rest.ftl
+renderType: freemarker
+dialog: demo-rest:pages/demo-rest
+visible: true
+areas:
+  main:
+    availableComponents:
+      rest-test:
+        id: demo-rest:components/rest-test

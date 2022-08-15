@@ -1,0 +1,4 @@
+title: Rest Test
+renderType: freemarker
+templateScript: /demo-rest/templates/components/rest-test.ftl
+dialog: demo-rest:components/rest-test

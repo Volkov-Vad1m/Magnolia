@@ -1,0 +1,11 @@
+baseUrl: http://localhost:9090 #URL куда будут выполняться запросы
+restCalls: # доступные запросы по этому URL
+  read: # название запроса - именно это название будет использоваться в ftl скриптах 
+    method: get #тип метода
+    entityClass: com.fasterxml.jackson.databind.JsonNode #возвращаемый тип данных
+    path: /clients/{id} # путь для URL запроса. К примеру "http://localhost:9090/clients/16"
+    defaultValues: {id: "1"} # default значение для запроса. Запрос без параметра подставить в id 1
+  
+    
+
+

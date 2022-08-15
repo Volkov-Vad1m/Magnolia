@@ -1,0 +1,10 @@
+# при добавлении компоненты появится окно с полем name
+
+label: rest-test
+form:
+  properties:
+    id:
+      $type: textField
+      label: Id
+      i18n: false
+    
